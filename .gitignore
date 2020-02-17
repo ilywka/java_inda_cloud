@@ -17,6 +17,11 @@
 *.iml
 *.ipr
 
+### Vagrant ###
+vm/.vagrant
+vm/*.log
+
+
 ### NetBeans ###
 /nbproject/private/
 /build/

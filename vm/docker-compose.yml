@@ -1,10 +1,10 @@
-version: '2'
+version: '2.2'
 
 services:
   mongo:
     image: mongo
     ports:
       - "27017:27017"
-networks:
-    default:
-        driver: bridge
+#networks:
+#    default:
+#        driver: bridge
