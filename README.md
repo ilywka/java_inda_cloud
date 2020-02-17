@@ -76,8 +76,12 @@ mvn clean package
 
 ### Prepare environment
 
+install vagrant (https://www.vagrantup.com/)
+install jq (https://stedolan.github.io/jq/)
+
 ```bash
-docker-compose up -d
+cd vagrant
+vagrant up
 ```
 
 Update `application.properties` and set different ports for your services.
@@ -114,6 +118,10 @@ curl --request GET \
 curl --request PUT \
   --url http://localhost:8082/catalog/{specification_id}/order
 ```
+
+or
+
+test/test.sh
 
 ### Drawbacks
 
